@@ -66,11 +66,11 @@ while [[ $# -gt 0 ]]; do
       exit 0
       ;;
     -a|--delay)
-      _delay=true
+      _delay="$DELAY"
       shift
       ;;
     -r|--every)
-      _every=true
+      _every="$EVERY"
       shift
       ;;
     -*)
